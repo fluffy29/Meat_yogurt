@@ -1,14 +1,14 @@
 <?php
 
 try {
-    $db = new PDO('mysql:host=127.0.0.1;dbname=meat_yogurt', 'root', '');
+    $db = new PDO('mysql:host=127.0.0.1;dbname=meat_yogurt', 'root', 'Acsdoha2023');
 } catch (PDOException $e) {
     // echo '<pre>';
     // print_r($e->getMessage());
     // echo '</pre>';
     echo '<p> whoops! something went wrong </p>';
     echo '<br>';
-    echo '<a href=""http://localhost:8080/meat-yogurt-website/">Back to homepage </a>';
+    echo '<a href="http://localhost/meat-yogurt/">Back to homepage </a>';
     exit;
 }
 
